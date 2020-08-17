@@ -22,7 +22,7 @@ import (
 	"k8s.io/client-go/rest"
 	"k8s.io/client-go/tools/pager"
 
-	"github.com/argoproj/gitops-engine/pkg/utils/kube"
+	"github.com/yadavnikhil/gitops-engine/pkg/utils/kube"
 )
 
 const (

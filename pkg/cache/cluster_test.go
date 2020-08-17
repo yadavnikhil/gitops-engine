@@ -18,8 +18,8 @@ import (
 	"k8s.io/client-go/rest"
 	"sigs.k8s.io/yaml"
 
-	"github.com/argoproj/gitops-engine/pkg/utils/kube"
-	"github.com/argoproj/gitops-engine/pkg/utils/kube/kubetest"
+	"github.com/yadavnikhil/gitops-engine/pkg/utils/kube"
+	"github.com/yadavnikhil/gitops-engine/pkg/utils/kube/kubetest"
 )
 
 func strToUnstructured(jsonStr string) *unstructured.Unstructured {

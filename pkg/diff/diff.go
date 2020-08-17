@@ -25,8 +25,8 @@ import (
 	"k8s.io/client-go/kubernetes/scheme"
 	"sigs.k8s.io/yaml"
 
-	jsonutil "github.com/argoproj/gitops-engine/pkg/utils/json"
-	kubescheme "github.com/argoproj/gitops-engine/pkg/utils/kube/scheme"
+	jsonutil "github.com/yadavnikhil/gitops-engine/pkg/utils/json"
+	kubescheme "github.com/yadavnikhil/gitops-engine/pkg/utils/kube/scheme"
 )
 
 // Holds diffing settings
